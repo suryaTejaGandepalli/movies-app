@@ -21,7 +21,7 @@ public class MovieController {
 	MovieDao dao;
 	
 	
-	
+	// This end point used to show the add page
 	@GetMapping("/add")
 	public String add() {
 		return "add.jsp";
